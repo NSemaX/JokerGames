@@ -1,0 +1,74 @@
+﻿@model Contract.CardModel
+@{
+    ViewData["Title"] = "Card";
+}
+
+<h1>Card</h1>
+
+<div class="row">
+        @using (Html.BeginForm())
+        {
+            <table width="100%">
+                <tr>
+                    <td width="13%"></td>
+                    <td width="73%">
+                        <table class="table borderless" width="100%">
+                            <tr>
+                                <td colspan="2">
+                                    <h4>
+                                        Add Card
+                                    </h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Card Number
+                                </td>
+                                <td>
+                                    @Html.TextBoxFor(x => x.CardNumber, new {@class = "form-control text-center", @placeholder = "CardNumber"})
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Player
+                                </td>
+                                <td>
+                                    @Html.DropDownListFor(x => x.Selected_PlayerId, new SelectList(Model.PlayerList, "ID", "CategoryName", Model.Selected_PlayerId), null, new {@class = "form-control select select-primary education-degree-select", @id = "cat_ddl"})
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <input type="submit" class="btn btn-success btn-md col-xs-12 mtm" value="Save"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Amount
+                                </td>
+                                <td>
+                                    <br/>
+                                    <p style="color: black">Card number and player selections are required.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="13%"></td>
+                </tr>
+                <tr>
+                    <td width="13%"></td>
+                    <td width="73%">
+                        @if (!String.IsNullOrEmpty(ViewBag.Message))
+                        {
+                            <div class="note note-info">
+                                <label> @ViewBag.Message </label>
+                            </div>
+                        }
+                    </td>
+                    <td width="13%"></td>
+                </tr>
+            </table>
+        }
+    </div>

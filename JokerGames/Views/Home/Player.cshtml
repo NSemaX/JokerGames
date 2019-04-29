@@ -1,0 +1,62 @@
+﻿@model Contract.PlayerModel
+@{
+    ViewData["Title"] = "Player";
+}
+
+<h1>Player</h1>
+
+<div class="container">
+    <div class="row">
+        @using (Html.BeginForm())
+        {
+            <table width="100%">
+                <tr>
+                    <td width="13%"></td>
+                    <td width="73%">
+                        <table class="table borderless" width="100%">
+                            <tr>
+                                <td colspan="2">
+                                    <h4>
+                                        Add Player
+                                    </h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Username
+                                </td>
+                                <td>
+                                    @Html.TextBoxFor(x => x.Username, new {@class = "form-control text-center", @placeholder = "Username"})
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <input type="submit" class="btn btn-success btn-md col-xs-12 mtm" value="Save"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td width="13%"></td>
+                </tr>
+                <tr>
+                    <td width="13%"></td>
+                    <td width="73%">
+                        @if (!String.IsNullOrEmpty(ViewBag.Message))
+                        {
+                            <div class="note note-info">
+                                <label> @ViewBag.Message </label>
+                            </div>
+                        }
+                    </td>
+                    <td width="13%"></td>
+                </tr>
+            </table>
+        }
+    </div>
+</div>
+
+

@@ -1,0 +1,9 @@
+C:\Users\nkudu\source\repos\JokerGames\Contract\bin\Debug\netcoreapp2.2\Contract.deps.json
+C:\Users\nkudu\source\repos\JokerGames\Contract\bin\Debug\netcoreapp2.2\Contract.dll
+C:\Users\nkudu\source\repos\JokerGames\Contract\bin\Debug\netcoreapp2.2\Contract.pdb
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Contract.csprojAssemblyReference.cache
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Contract.csproj.CoreCompileInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Contract.AssemblyInfoInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Contract.AssemblyInfo.cs
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Contract.dll
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Contract.pdb

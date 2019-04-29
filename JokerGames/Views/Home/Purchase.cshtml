@@ -1,0 +1,112 @@
+﻿@model Contract.PurchaseModel
+@{
+    ViewData["Title"] = "Purchase";
+}
+
+<h1>Purchase</h1>
+
+<div class="row">
+    @using (Html.BeginForm())
+    {
+        <table width="100%">
+            <tr>
+                <td width="13%"></td>
+                <td width="73%">
+                    <table class="table borderless" width="100%">
+                        <tr>
+                            <td colspan="2">
+                                <h4>
+                                    Add Purchase
+                                </h4>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Amount:
+                            </td>
+                            <td>
+                                @Html.TextBoxFor(x => x.Amount, new {@class = "form-control text-center", @placeholder = "Amount"})
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Player:
+                            </td>
+                            <td>
+                                @Html.DropDownListFor(x => x.Selected_PlayerId, new SelectList(Model.PlayerList, "ID", "CategoryName", Model.Selected_PlayerId), null, new {@class = "form-control select select-primary education-degree-select", @id = "cat_ddl"})
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Card:
+                            </td>
+                            <td>
+                                @Html.DropDownListFor(x => x.Selected_CardId, new SelectList(Model.CardList, "ID", "CategoryName", Model.Selected_CardId), null, new {@class = "form-control select select-primary education-degree-select", @id = "cat_ddl1"})
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                               
+                            </td>
+                            <td>
+                                <input type="submit" class="btn btn-success btn-md col-xs-12 mtm" value="Save"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                <br/>
+                                <p style="color: black">Amount , player and card selections areas are required.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="13%"></td>
+            </tr>
+            <tr>
+                <td width="13%"></td>
+                <td width="73%">
+                    @if (!String.IsNullOrEmpty(ViewBag.Message))
+                    {
+                        <div class="note note-info">
+                            <label> @ViewBag.Message </label>
+                        </div>
+                    }
+                </td>
+                <td width="13%"></td>
+            </tr>
+        </table>
+    }
+</div>
+
+
+<script type="text/javascript">
+    $(function () {
+        $("#cat_ddl").change(function () {
+            var self = $(this);
+            var items = "";
+
+            $.ajax({
+                url: '/Home/GetCardNumbersByPlayerId/' + self.val(),
+                type:'POST',
+                dataType:'json',
+                success: function (data) {
+                    $.each(JSON.parse(data), function (index, item) {
+                        items += "<option value='" + item.ID + "'>" + item.CategoryName
+                            +"</option>";
+                    });
+                    $("#cat_ddl1").html(items);
+                },
+                error: function (err, ajaxOptions, thrownError) {
+                    alert(err.status);
+                    alert(thrownError);
+                    alert(err.responseText);
+                }
+            });
+
+        });
+    });
+</script>
+

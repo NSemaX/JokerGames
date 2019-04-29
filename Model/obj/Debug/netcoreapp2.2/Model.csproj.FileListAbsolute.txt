@@ -1,0 +1,17 @@
+C:\Users\nkudu\source\repos\JokerGames\Contract\bin\Debug\netcoreapp2.2\Model.deps.json
+C:\Users\nkudu\source\repos\JokerGames\Contract\bin\Debug\netcoreapp2.2\Model.dll
+C:\Users\nkudu\source\repos\JokerGames\Contract\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Model.dll
+C:\Users\nkudu\source\repos\JokerGames\Contract\obj\Debug\netcoreapp2.2\Model.pdb
+C:\Users\nkudu\source\repos\JokerGames\Model\bin\Debug\netcoreapp2.2\Model.deps.json
+C:\Users\nkudu\source\repos\JokerGames\Model\bin\Debug\netcoreapp2.2\Model.dll
+C:\Users\nkudu\source\repos\JokerGames\Model\bin\Debug\netcoreapp2.2\Model.pdb
+C:\Users\nkudu\source\repos\JokerGames\Model\obj\Debug\netcoreapp2.2\Model.csprojAssemblyReference.cache
+C:\Users\nkudu\source\repos\JokerGames\Model\obj\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\Users\nkudu\source\repos\JokerGames\Model\obj\Debug\netcoreapp2.2\Model.dll
+C:\Users\nkudu\source\repos\JokerGames\Model\obj\Debug\netcoreapp2.2\Model.pdb

@@ -1,0 +1,14 @@
+C:\Users\nkudu\source\repos\JokerGames\DomainService\bin\Debug\netcoreapp2.2\DomainService.deps.json
+C:\Users\nkudu\source\repos\JokerGames\DomainService\bin\Debug\netcoreapp2.2\DomainService.dll
+C:\Users\nkudu\source\repos\JokerGames\DomainService\bin\Debug\netcoreapp2.2\DomainService.pdb
+C:\Users\nkudu\source\repos\JokerGames\DomainService\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\nkudu\source\repos\JokerGames\DomainService\bin\Debug\netcoreapp2.2\Repository.dll
+C:\Users\nkudu\source\repos\JokerGames\DomainService\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\nkudu\source\repos\JokerGames\DomainService\bin\Debug\netcoreapp2.2\Repository.pdb
+C:\Users\nkudu\source\repos\JokerGames\DomainService\obj\Debug\netcoreapp2.2\DomainService.csprojAssemblyReference.cache
+C:\Users\nkudu\source\repos\JokerGames\DomainService\obj\Debug\netcoreapp2.2\DomainService.csproj.CoreCompileInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\DomainService\obj\Debug\netcoreapp2.2\DomainService.AssemblyInfoInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\DomainService\obj\Debug\netcoreapp2.2\DomainService.AssemblyInfo.cs
+C:\Users\nkudu\source\repos\JokerGames\DomainService\obj\Debug\netcoreapp2.2\DomainService.csproj.CopyComplete
+C:\Users\nkudu\source\repos\JokerGames\DomainService\obj\Debug\netcoreapp2.2\DomainService.dll
+C:\Users\nkudu\source\repos\JokerGames\DomainService\obj\Debug\netcoreapp2.2\DomainService.pdb

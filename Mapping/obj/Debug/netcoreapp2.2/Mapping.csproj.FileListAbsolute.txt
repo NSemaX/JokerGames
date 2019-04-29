@@ -1,0 +1,12 @@
+C:\Users\nkudu\source\repos\JokerGames\Mapping\bin\Debug\netcoreapp2.2\Mapping.deps.json
+C:\Users\nkudu\source\repos\JokerGames\Mapping\bin\Debug\netcoreapp2.2\Mapping.dll
+C:\Users\nkudu\source\repos\JokerGames\Mapping\bin\Debug\netcoreapp2.2\Mapping.pdb
+C:\Users\nkudu\source\repos\JokerGames\Mapping\bin\Debug\netcoreapp2.2\Entities.dll
+C:\Users\nkudu\source\repos\JokerGames\Mapping\bin\Debug\netcoreapp2.2\Entities.pdb
+C:\Users\nkudu\source\repos\JokerGames\Mapping\obj\Debug\netcoreapp2.2\Mapping.csprojAssemblyReference.cache
+C:\Users\nkudu\source\repos\JokerGames\Mapping\obj\Debug\netcoreapp2.2\Mapping.csproj.CoreCompileInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\Mapping\obj\Debug\netcoreapp2.2\Mapping.AssemblyInfoInputs.cache
+C:\Users\nkudu\source\repos\JokerGames\Mapping\obj\Debug\netcoreapp2.2\Mapping.AssemblyInfo.cs
+C:\Users\nkudu\source\repos\JokerGames\Mapping\obj\Debug\netcoreapp2.2\Mapping.csproj.CopyComplete
+C:\Users\nkudu\source\repos\JokerGames\Mapping\obj\Debug\netcoreapp2.2\Mapping.dll
+C:\Users\nkudu\source\repos\JokerGames\Mapping\obj\Debug\netcoreapp2.2\Mapping.pdb
